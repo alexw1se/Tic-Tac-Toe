@@ -1,0 +1,127 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+.container
+{
+    display: flex;
+    flex-direction: column;    
+}
+
+body{
+    background: #90a6b4;
+}
+
+#reset
+{
+    margin: 25px 40%;
+    padding: 20px;
+    background-color: rgb(76, 174, 122);
+    color: white;
+    font-size: 1.10rem;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 400;
+
+}
+
+#reset:hover
+{
+    background-color: rgb(169, 136, 200);
+}
+
+table
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+td
+{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+.scores
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 125px;
+}
+
+.title
+{
+    padding: 10px;
+    margin: 25px;
+    text-align: center;
+    font-size: 1.45rem;
+}
+
+.scores p
+{
+    text-align: center;
+    margin: 5px;
+    font-size: 1.40rem;
+    color:white;
+    font-weight: 400;
+}
+
+.player
+{
+    width: 100px;
+    text-align: center;
+    font-size: 1.30rem;
+}
+
+#resetScore
+{
+    margin: 25px 40%;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: rgb(65, 142, 101);
+    color: white;
+    font-size: 1.10rem;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 400;
+}
+
+#resetScore:hover
+{
+    background-color: rgb(187, 148, 224);
+}
+
+
+.player img{
+    border-radius: 50px;
+    width:73%;
+    padding: 0px
+}
+
+.player #p1{
+    color:red;
+}
+.player #p2{
+    color:blue;
+}
+
+td{
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+td:hover{
+    background-color: rgb(235, 217, 193);
+}
