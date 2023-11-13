@@ -20,10 +20,12 @@ for (let i = 1; i <= 9; i++)
 
             if(playerSymbol === "X"){
                 playerSymbol = "O"
+                document.getElementById("turn").innerHTML="(Player 2's Turn)"
                 counter += 1
             }
             else{
                 playerSymbol = "X"
+                document.getElementById("turn").innerHTML="(Player 1's Turn)"
                 counter += 1
             }
         }

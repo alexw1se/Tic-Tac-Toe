@@ -125,3 +125,14 @@ td{
 td:hover{
     background-color: rgb(235, 217, 193);
 }
+
+.container #turn{
+    color:black;
+    font-size: 1.27rem;
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    font-weight: 400px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
